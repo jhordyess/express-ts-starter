@@ -7,7 +7,6 @@ const NODE_ENV = process.env.NODE_ENV
 
 /** @type {import('webpack').Configuration} */
 export default {
-  name: 'express-ts-webpack-starter',
   entry: {
     index: path.resolve('src', 'index.ts')
   },
