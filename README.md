@@ -52,7 +52,7 @@ yarn dev
 ## Project Structure
 
 ```md
-fastify-typescript-starter/
+express-ts-webpack-starter/
 ├── .env.example            # Example environment variables file.
 ├── .gitignore              # List of files and directories to be ignored by version control.
 ├── .prettierrc.json        # Prettier configuration file.
