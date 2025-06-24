@@ -1,8 +1,5 @@
 import path from 'node:path'
 import nodeExternals from 'webpack-node-externals'
-import NodemonPlugin from 'nodemon-webpack-plugin'
-
-const NODE_ENV = process.env.NODE_ENV
 
 /** @type {import('webpack').Configuration} */
 export default {
@@ -10,7 +7,7 @@ export default {
     index: path.resolve('src', 'index.ts')
   },
   target: 'node',
-  mode: NODE_ENV,
+  mode: 'production',
   externals: [nodeExternals()],
   output: {
     path: path.resolve('dist'),
@@ -34,9 +31,5 @@ export default {
       }
     ]
   },
-  plugins: [
-    new NodemonPlugin({
-      script: path.resolve('dist', 'index.cjs')
-    })
-  ]
+  plugins: []
 }
