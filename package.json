@@ -41,6 +41,6 @@
     "lint": "eslint .",
     "validate": "pnpm lint && pnpm ts-check",
     "format": "prettier --write .",
-    "postinstall": "husky"
+    "prepare": "husky"
   }
 }
