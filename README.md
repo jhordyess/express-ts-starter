@@ -1,4 +1,4 @@
-# Express TypeScript Webpack Starter
+# Express TypeScript Starter
 
 This is a starter project for building a backend application using Express, TypeScript, and Webpack.
 
@@ -26,13 +26,13 @@ corepack enable pnpm
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/jhordyess/express-ts-webpack-starter.git
+git clone https://github.com/jhordyess/express-ts-starter.git
 ```
 
 2. Navigate to the project folder:
 
 ```sh
-cd express-ts-webpack-starter
+cd express-ts-starter
 ```
 
 3. Install dependencies:
@@ -52,7 +52,7 @@ pnpm dev
 ## Project Structure
 
 ```md
-express-ts-webpack-starter/
+express-ts-starter/
 ├── .env.example            # Example environment variables file.
 ├── .gitignore              # List of files and directories to be ignored by version control.
 ├── .prettierrc.json        # Prettier configuration file.
