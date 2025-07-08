@@ -59,7 +59,6 @@ express-ts-starter/
 ├── eslint.config.js        # ESLint configuration file.
 ├── package.json            # Project configuration and dependencies.
 ├── pnpm-lock.yaml          # pnpm lock file for dependency versions.
-├── pnpm-workspace.yaml     # pnpm workspace configuration file.
 ├── README.md               # Project documentation.
 ├── tsconfig.json           # TypeScript configuration file.
 ├── webpack.config.js       # Webpack configuration file.
