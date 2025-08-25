@@ -5,7 +5,7 @@
     /* Projects */
 
     /* Language and Environment */
-    "target": "ES2022",
+    "target": "ES2023",
 
     /* Modules */
     "module": "CommonJS",
