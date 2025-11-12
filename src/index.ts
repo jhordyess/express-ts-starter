@@ -2,7 +2,7 @@ import cors from 'cors'
 import express from 'express'
 import morgan from 'morgan'
 
-import { port } from './config'
+import { port } from '@/config'
 
 const app = express()
 
