@@ -15,10 +15,7 @@ export default {
   externals: [nodeExternals()],
   output: {
     path: path.resolve('dist'),
-    filename: '[name].cjs',
-    library: {
-      type: 'commonjs'
-    }
+    filename: '[name].cjs'
   },
   resolve: {
     extensions: ['.ts'],
