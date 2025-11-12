@@ -8,7 +8,8 @@
     "target": "ES2023",
 
     /* Modules */
-    "module": "CommonJS",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -30,5 +31,5 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "exclude": ["node_modules", "dist"]
+  "include": ["src"]
 }
