@@ -15,10 +15,10 @@ This is a starter project for building a backend application using Express, Type
 ## Prerequisites
 
 1. Install [Node.js](https://nodejs.org/en/download) (LTS version recommended).
-2. Enable Corepack to use a stable version of pnpm:
+2. Install [pnpm](https://pnpm.io/installation) globally:
 
 ```sh
-corepack enable pnpm
+npm install -g pnpm@latest-10
 ```
 
 ## Getting Started
