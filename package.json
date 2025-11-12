@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node dist/index.cjs",
-    "dev": "webpack --mode development --watch src/index.ts",
+    "dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
     "build:validate": "pnpm validate && pnpm build",
     "ts-check": "tsc --noEmit",
