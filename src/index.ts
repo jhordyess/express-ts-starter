@@ -2,7 +2,7 @@ import cors from 'cors'
 import express from 'express'
 import morgan from 'morgan'
 
-import { port } from './config'
+import { port } from '@/config'
 
 const app = express()
 
@@ -14,5 +14,5 @@ app.get('/', (_, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.info(`Server is running on http://localhost:${port}`)
 })
