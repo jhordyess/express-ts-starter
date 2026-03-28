@@ -29,25 +29,25 @@ npm install -g pnpm@latest-10
 git clone https://github.com/jhordyess/express-ts-starter.git
 ```
 
-1. Navigate to the project folder:
+2. Navigate to the project folder:
 
 ```sh
 cd express-ts-starter
 ```
 
-1. Install dependencies:
+3. Install dependencies:
 
 ```sh
 pnpm i
 ```
 
-1. Start the development server:
+4. Start the development server:
 
 ```sh
 pnpm dev
 ```
 
-1. Open your browser or API client and interact with the server running at [http://localhost:3000](http://localhost:3000).
+5. Open your browser or API client and interact with the server running at [http://localhost:3000](http://localhost:3000).
 
 ## Automatic Lifecycle Scripts
 
