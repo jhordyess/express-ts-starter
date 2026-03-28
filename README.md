@@ -29,25 +29,38 @@ npm install -g pnpm@latest-10
 git clone https://github.com/jhordyess/express-ts-starter.git
 ```
 
-2. Navigate to the project folder:
+1. Navigate to the project folder:
 
 ```sh
 cd express-ts-starter
 ```
 
-3. Install dependencies:
+1. Install dependencies:
 
 ```sh
 pnpm i
 ```
 
-4. Start the development server:
+1. Start the development server:
 
 ```sh
 pnpm dev
 ```
 
-5. Open your browser or API client and interact with the server running at [http://localhost:3000](http://localhost:3000).
+1. Open your browser or API client and interact with the server running at [http://localhost:3000](http://localhost:3000).
+
+## Automatic Lifecycle Scripts
+
+This template includes two useful npm lifecycle scripts configured in `package.json`.
+
+- `prepare`: Runs after install and initializes Husky, so Git hooks (like `pre-push`) are ready automatically.
+- `postinstall`: Runs after install and executes `pnpm audit --audit-level moderate` to check for known vulnerabilities in dependencies.
+
+What this means:
+
+1. When you run `pnpm i`, Husky setup is done for you.
+2. A security check is also executed automatically after dependencies are installed.
+3. If vulnerabilities are found, review and update the affected packages before continuing.
 
 ## Project Structure
 
